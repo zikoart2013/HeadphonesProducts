@@ -1,0 +1,67 @@
+@import url('http://fonts.cdnfonts.com/css/meera-inimai');
+/*Navbar*/
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: black;
+}
+a:hover{
+    color:brown;
+}
+
+.nav-wrapper ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Meera Inimai';
+    color: brown;
+}
+
+/*Right side*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.text{
+    font-size: 70px;
+    margin-left: 200px;
+    padding: 0 px;
+}
+.text h3{
+    font-family: 'Radio Canada', sans-serif;
+    padding: 0 px;
+    margin-bottom: -60px;
+
+
+
+}
+.text p{
+    margin-bottom: -60px;
+}
+.text button{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color: azure;
+    border-width:  10px;
+    border-radius: 20px;
+    margin-top: 70px;
+
+}
