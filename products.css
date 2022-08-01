@@ -1,0 +1,79 @@
+@import url('http://fonts.cdnfonts.com/css/meera-inimai');
+
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main2{
+    width: 600px;
+    height: 600px;
+    transform: rotate(-10deg);
+    margin-left: 150px;
+
+}
+
+.text2{
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.text2 p{
+    margin-left: 50px;
+}
+
+.iconsglobal{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    margin-top: 0px;
+}
+.c1{
+    background-image: url(./assets/icons/Charging\ Battery.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50px;
+}
+.c2{
+    background-image: url(./assets/icons/blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.c3{
+    background-image: url(./assets/icons/Mic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.icons h1{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-bottom: -10px;
+
+}
+.icons p{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 140px;
+}

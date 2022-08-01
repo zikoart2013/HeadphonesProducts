@@ -1,14 +1,23 @@
 @import url('http://fonts.cdnfonts.com/css/meera-inimai');
+body{
+    background-image:url('./assets/Background\ Elements.png');
+    background-position: cover;
+    background-size: 100%;
+
+}
 /*Navbar*/
 .nav-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
+
 
 a:link { 
     text-decoration: none; 
-    color: black;
+    color: rgb(0, 0, 0);
 }
 a:hover{
     color:brown;
@@ -17,12 +26,23 @@ a:hover{
 .nav-wrapper ul{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
     list-style: none;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Meera Inimai';
     color: brown;
+    margin-left: 50px;
+
+}
+
+
+ .crt{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
 }
 
 /*Right side*/
