@@ -87,5 +87,46 @@ a:hover{
     border-width:  10px;
     border-radius: 20px;
     margin-top: 70px;
+}
+.nav-wrapper .icone {
+    display: none;
+}
+  
+@media(max-width:747px) {
+    body{
+        margin: 0px;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+    }
+    .main{
+        width: 200px;
+        margin: 0px;
+        margin-top: 50px;
+        padding: auto;
+    }
+    .text{
+        margin: 0px;
+        padding: auto;
+
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-wrapper ul{
+        display: flex;
+    }
+}
+
+@media(max-width:600px) {
+    .nav-wrapper ul{
+        display: flex;
+        flex-direction: column;
+        }
+   .nav-wrapper li{
+margin-right: 60px; 
+align-items: center;
+
+}
 
 }

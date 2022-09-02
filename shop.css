@@ -65,3 +65,19 @@ margin-left: 50px;
   justify-content: center;
   margin-left: 25px;
 }
+@media(max-width:747px) {
+  .img2{
+    width: 200px;
+    height: 200px;
+  }
+  .shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .midbtn2{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    }
+}

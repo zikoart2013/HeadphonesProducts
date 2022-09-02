@@ -77,3 +77,27 @@
     font-size: 20px;
     margin-left: 140px;
 }
+@media(max-width:747px) {
+    .main2{
+        width: 300px;
+        height: 350px;
+        transform: rotate(-10deg);
+        margin-left: 0px;
+        margin-top: 50px;
+    
+    }
+    .iconsglobal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icons p{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+    }
+    .text2 {
+        justify-content: center
+    }
+}
+
